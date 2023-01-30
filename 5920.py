@@ -15,8 +15,8 @@ each_url_resend = 2  # 每个链接复用几次
 push_plus_token = ''  # 推送token http://www.pushplus.plus
 cks = [ 
     {
-        'name': "", # 账号1名
-        'ck': "", # wskey
+        'name': "1", # 账号1名
+        'ck': "pin=160678996-464118;wskey=AARjzREhAEBee2X353in8nyaxrFy1xevCsObIuqnyTOeCNRa4yaoFuPfBzVncGK6oYeWzqN92N5ekign8T_lZ4Q3t4j9gk5A;", # wskey
         'request': [], 
         'is_active': 1 # 是否激活,0关闭
     },
@@ -56,7 +56,7 @@ HEADERS = {
     "cache-control": "no-cache",
     "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
 }
-proxies = {"https": "http://192.168.1.105:8888"}
+proxies = {"http://49.235.104.232:9000/jd/sign"}
 proxies = None
 if not sign_api:
     print('请输入sign接口地址')
